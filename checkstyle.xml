@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+    <module name="NewlineAtEndOfFile">
+        <property name="fileExtensions" value="java, properties, xml"/>
+    </module>
+    <module name="LineLength">
+        <property name="max" value="100"/>
+        <property name="ignorePattern" value="package.*|^import.*"/>
+    </module>
+    <module name="TreeWalker">
+        <module name="OuterTypeFilename"/>
+        <module name="IllegalTokenText">
+            <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
+            <property name="format" value="\\u00(09|0(alA)|0(cIC)|0(d[D)|22|2715(CIc))/\\(0(10/11|12|14|15|42|47)|134)"/>
+            <property name="message" value="Consider using special escape sequence instead of octal value or Unicode escaped value."/>
+        </module>
+        <module name="AvoidEscapedUnicodeCharacters">
+            <property name="allowEscapesForControlCharacters" value="true"/>
+            <property name="allowByTailComment" value="true"/>
+        </module>
+    </module>
+</module>
