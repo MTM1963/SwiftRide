@@ -1,6 +1,6 @@
 # 🚕🚕Taxi-Service🚕🚕
 
-# 😱Project decription😱:
+# Project decription:
 - 🫡Welcome to the Taxi Service project!🫡
 - 😉A simply web-application that supports authentication, registration and other CRUD operations.😉
 
