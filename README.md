@@ -15,16 +15,25 @@ Make sure you have the following software installed on your system:
 
 - Java Development Kit (JDK) 11 or higher
 - Apache Maven
+- Apache Tomcat vesion 9 or higher
+- DataBase: MySQL
 
 ### Installation
 
 1. Clone the repository to your local machine:
-
-   ```shell
-   git clone https://github.com/your-username/your-project.git
+- first of all, you should clink on this link - https://github.com/MTM1963/my-taxi-service;
+- after that, you should made your fork
+- Second, clink on Code<> and clone link, after that open your Intellij Idea, click on Get from VCS
+- past link, which you clone later
 
 ### Replace Placeholders:
-You should replace placeholders in ConnectionUtil to your own data
+- Open the ConnectionUtil file in your project.
+Locate the placeholders that need to be replaced.
+These placeholders might include values such as YOUR_DATABASE_URL, YOUR_USERNAME, and YOUR_PASSWORD.
+- Replace YOUR_DATABASE_URL with the actual URL of your database. This typically includes the database provider, host, port, and  database name. For example: jdbc:mysql://localhost:3306/mydatabase.
+-Replace YOUR_USERNAME with your database username.
+- Replace YOUR_PASSWORD with your database password. 
+
 
 # Features 🤌:
 
