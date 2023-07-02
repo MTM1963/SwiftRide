@@ -31,7 +31,7 @@ Make sure you have the following software installed on your system:
 Locate the placeholders that need to be replaced.
 These placeholders might include values such as YOUR_DATABASE_URL, YOUR_USERNAME, and YOUR_PASSWORD.
 - Replace YOUR_DATABASE_URL with the actual URL of your database. This typically includes the database provider, host, port, and  database name. For example: jdbc:mysql://localhost:3306/mydatabase.
--Replace YOUR_USERNAME with your database username.
+- Replace YOUR_USERNAME with your database username.
 - Replace YOUR_PASSWORD with your database password. 
 
 
