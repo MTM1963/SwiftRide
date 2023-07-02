@@ -19,10 +19,7 @@ Make sure you have the following software installed on your system:
 - DataBase: MySQL
 
 ### Installation
-
-1. Clone the repository to your local machine:
-- first of all, you should clink on this link - https://github.com/MTM1963/my-taxi-service;
-- after that, you should made your fork
+- First of all, you should made your fork
 - Second, clink on Code<> and clone link, after that open your Intellij Idea, click on Get from VCS
 - past link, which you clone later
 
