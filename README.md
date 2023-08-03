@@ -1,8 +1,12 @@
 # 🚕🚕SwiftRide🚕🚕
 
 # Project decription:
-- 🫡Welcome to the Taxi Service project!🫡
-- 😉A simply web-application that supports authentication, registration and other CRUD operations.😉
+- 🫡Welcome to the SwiftRide!🫡
+- 😉This is a web application that provides various features including authentication, registration and C
+RUD(Create, Read, Update, Delete) operations.
+The project is built using Java Core, JDBC, MySQL.
+With the SwiftRide, users can enjoy a simplified and user-friendly experience while managing taxi-related data and operations
+😉
 
 
 ## Setup
